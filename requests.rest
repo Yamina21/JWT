@@ -1,0 +1,10 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "zaineb"
+} 
+
+###
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MjUwNDg1MzV9.w0othOiE1VQBzYY93XJDZwSi9zteF8U7np5jMrtaWkE
